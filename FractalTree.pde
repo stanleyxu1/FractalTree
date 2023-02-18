@@ -49,7 +49,7 @@ public void drawBranches(int x, int y, double branchLength, double angle)
   double angle1 = angle + branchAngle;
   double angle2 = angle - branchAngle;
   branchLength = branchLength * fractionLength;
-  int endX1 = (int)(branchLength*Math.cos(angle1) + x + (int)(Math.random()*3+7));
+  int endX1 = (int)(branchLength*Math.cos(angle1) + x + (int)(Math.random()*3+4));
   int endY1 = (int)(branchLength*Math.sin(angle1) + y );
   int endX2 = (int)(branchLength*Math.cos(angle2) + x );
   int endY2 = (int)(branchLength*Math.sin(angle2) + y+ (int)(Math.random()*3+3));
