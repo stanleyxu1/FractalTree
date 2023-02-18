@@ -38,7 +38,7 @@ public void mouseDragged() {
 public void draw()
 {
 
-  background(#758BA5);
+  background(175);
   stroke(#522E2E);
   strokeWeight(4);
   line(320, 480, 320, 380);
